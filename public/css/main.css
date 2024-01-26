@@ -1,0 +1,216 @@
+.carousel-img{
+    height: 82vh;
+    
+}
+.img-fit{
+    height: 100%;
+}
+
+/* footer css */
+footer{
+    background-image: url("/images/bacblue.jpg");
+
+}
+.footer-row{
+    border-top: rgb(29, 153, 45) 3px solid;
+    height: 100px;
+   
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+.footer-col{
+    text-align: center;   
+}
+.theme{
+   background-color: forestgreen;
+}
+.themec{
+    color: rgb(163, 253, 163);
+}
+
+
+   
+
+/* end of footer css */
+
+/* the coursel cards css */
+.bi{
+    font-size: 60px;
+    text-align: center; 
+    height: 100px !important;
+    width: 100px !important;
+    margin: auto;
+    position: relative;
+    top: -45px;
+    border-radius: 50%;
+    color: white;
+    background: linear-gradient(90deg,#499255 0%, #2a753d 100%);
+
+}
+
+.car-cards{
+    border-radius: 0;
+    cursor: pointer;
+    margin-top: 50px !important;
+    text-align: center;
+    padding: 100px;
+    box-shadow: green;
+}
+.card:hover.bi{
+    color: #2825bd;
+    
+}
+
+
+    
+   
+ 
+
+footer a{
+    color: white;
+       text-decoration: none;
+   
+    margin-left: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif  ;
+}
+footer a:hover{
+    color:rgb(43, 7, 7);
+}
+
+
+ #banner-heading{
+        font-size: 50px;
+    }
+
+
+    #banner-subheading{
+        font-size: 20px;
+    }
+
+
+
+
+    /***** Section *****/
+    body, html{
+  height: 100%;
+}
+.main-nav{
+min-height: 8%;
+}
+.main{
+height:92%;
+width: 100%;
+}
+/*
+*/
+
+.rate-star{
+  font-size: 10px;
+}
+
+
+.media-parent{
+   background: transparent;
+}
+
+
+.bg-light-blue{
+    background-color: #03a9F4;
+    color: white;
+}
+.bg-light-green{
+    background-color: #26D701;
+}
+.text-light-green{
+     color: #26D701;
+}
+.orange {
+    background-color: #f89021;
+}
+.border-bottom-orange{
+  border-bottom: 3px solid #f89021;
+}
+.orange-light{
+    background: #f9a54d;
+}
+.orange-lighter{
+    background: #fbc994;
+}
+.orange-lightest{
+    background: #fce7d2;
+}
+
+.text-orange {
+    color: #f89021;
+}
+.text-orange-light{
+    color: #f9a54d;
+}
+.text-orange-lighter{
+    color: #fbc994;
+}
+.text-orange-lightest{
+    color: #fce7d2;
+}
+
+.btn.orange:hover {
+    background-color: #f9a54d;
+    color: #fce7d2;
+}
+.btn.orange-light:hover {
+    background: #f89021;
+    color: #fce7d2;
+}
+.btn.orange-lighter:hover {
+    background: #fce7d2;
+    color: #f89021;
+}
+.btn.orange-lightest:hover {
+    background: #fbc994;
+    color: #f89021;
+}
+
+.blue {
+    background-color: #008AD0;
+}
+.blue-light{
+    background: #32a6d9;
+}
+.blue-lighter{
+    background: #85ccea;
+}
+.blue-lightest{
+    background: #cce9f7;
+}
+
+.text-blue {
+    color: #1a92ce;
+}
+.text-blue-light{
+    color: #32a6d9;
+}
+.text-blue-lighter{
+    color: #85ccea;
+}
+.text-blue-lightest{
+    color: #cce9f7;
+}
+
+.btn.blue:hover {
+    background-color: #32a6d9;
+    color: #cce9f7;
+}
+.btn.blue-light:hover {
+    background: #1a92ce;
+    color: #cce9f7;
+}
+.btn.blue-lighter:hover {
+    background: #85ccea;
+    color: #1a92ce;
+}
+.btn.blue-lightest:hover {
+    background: #cce9f7;
+    color: #1a92ce;
+}

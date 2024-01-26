@@ -1,0 +1,17 @@
+
+        p {
+            text-align: justify;
+        }
+        h2{
+            color:rgb(10, 89, 163)
+        }
+        #btn {
+            border: none;
+            border-bottom: 2px solid rgb(10, 89, 163);
+            color:rgb(10, 89, 163);
+        }
+
+        .card>img {
+            height: 230px;
+        }
+        
