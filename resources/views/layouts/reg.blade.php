@@ -32,7 +32,7 @@
     <link href="{{ asset('css/fontawesome/css/all.css') }}" rel="stylesheet">
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
-<body style="background-color: rgb(28, 141, 175);">
+<body style="background-color: rgb(21, 133, 67);">
     <div id="app ">
         
 

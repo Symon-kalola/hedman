@@ -8,6 +8,7 @@ use App\Models\activities;
 use App\Models\innovations;
 use App\Models\partners;
 use Illuminate\Http\Request;
+use SebastianBergmann\CodeUnit\FunctionUnit;
 
 class HomeController extends Controller
 {
@@ -50,5 +51,13 @@ class HomeController extends Controller
         $req->save();
             
          return redirect()->back();
+    }
+    public function getOrders()
+    {
+     return view('Orders');
+    }
+    public Function storeOrder()
+    {
+     dd('storing the orders');
     }
 }

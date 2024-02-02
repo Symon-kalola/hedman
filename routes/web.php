@@ -28,6 +28,9 @@ Route::post('/home/partners/req', [HomeController::class, 'request'])->name('req
 Route::get('/innovations', [HomeController::class, 'innovation'])->name('innovations');
 Route::get('/about', [HomeController::class, 'about'])->name('bout');
 
+Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder');
+Route::get('/{id}/orders', [HomeController::class, 'getOrders'])->name('getOrders');
+
 //admin routes
 Route::get('/admin/home', [AdminController::class,'index'])->name('admin.home');
 Route::get('/admin/posts/innovations', [AdminController::class,'innovPosts'])->name('admin.innovposts');

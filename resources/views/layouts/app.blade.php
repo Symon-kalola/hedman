@@ -60,6 +60,9 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-success" href="/about">About</a>
                             </li>
+                             <li class="nav-item dropdown">
+                                <a class="nav-link text-success" href="/2/orders">My Orders <span class=" text-white circle"><small>10</small></span></a>
+                            </li>
                         </ul>
 
                     </ul>
@@ -117,14 +120,21 @@
     <div class="container-fluid">
   <footer class="bg-success  ">
      <div class="container-fluid ">
-         <div class="row  text-white px-5 ">
-             <div class="col-sm-4 mt-2 footer-col">
-
-                 <img style="height:200px; width:100%; font-weight:bolder;"
-                     src="images/icon.png" class="mx-2 image-fluid rounded" alt="..">
-
-                 <br>
-                 <p> headman&copy;2024</p>
+         <div class="row  text-white ">
+             <div class="col-sm-4  ">
+                <div class="h4 text-white border-1 border-primary border-2 ">
+                   Leave Message/ FeedBack
+                </div>
+                <div class=" form-outline text-white">
+                    <label  class="form-label text-white" for="nameMessage">Your Name</label>
+                     <textarea name="" style="height: 10px"  class="form-control bg-success text-white border-white" id="nameMessage" cols="30" rows="4" style="background:transparent;"></textarea>
+                     
+                 </div>
+                 <div class="form-outline text-white">
+                        <label for="" class="form-label text-white">Your Message</label>
+                        <textarea name="" style="height: 30px"  class="form-control bg-success text-white border-white" id="descriptionMessage" cols="30" rows="4" style="background:transparent;"></textarea>
+                 </div>
+                
              </div>
              <div class="col-sm-4 mt-2 footer-col text-white">
                  <h5>Quick Links</h5>
@@ -137,7 +147,7 @@
              <div class="col-sm-4 footer-col text-white">
                  <h5><a href="#"></a></h5>
                  <h5>Contact Us:</h5>
-                 <p>0882751360<br>0992345678<br>email: Lorem, ipsum.<br>
+                 <p>0998672577<br>email:hedman@gmail.com<br>
                  </p>
 
 
@@ -146,7 +156,7 @@
 
              <div class="d-flex  footer-row px-sm-5">
                  <h5 class="pt-3 text-center  px-md-5">
-                     <a href="#"><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
+                     <a href="https://facebook.com/groups/689169124490599/"><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
                      <a href="#"><span class="fab fa-whatsapp themec "></span> whatsapp</a>
                      <a href="#"><span class="fab fa-twitter mx-1 text-primary"></span>twitter</a>
 

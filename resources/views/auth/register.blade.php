@@ -5,13 +5,13 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="d-flex mb-1">
-              <a href="{{ route('home') }}" style="font-size:12px" class="text-white btn btn-secondary btn-sm"><i class="fa text-white fa-arrow-left"></i>  Back to home</a>
+              <a href="{{ route('home') }}" style="font-size:12px" class="text-white btn btn-success btn-sm"><i class="fa text-white fa-arrow-left"></i>  Back to home</a>
             </div>
             <div class="card">
                 <div  class="text-center shadow-md  my-3 card-header bg-white bg-gradient">
                  <div>
-                          <img src="images/pocist.jpeg" height="100px" alt="">
-                         <h5 class="h6  text-blue mt-2\" style="font-weight:900">POCITS REGISTER</h5>
+                          <img src="images/icon.png" height="100px" alt="">
+                         <h5 class="h6  text-success mt-2\" style="font-weight:900">HEDMAN REGISTER</h5>
                  </div>
                 </div>
 
@@ -71,7 +71,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-success">
                                     {{ __('Register') }}
                                 </button>
                             </div>

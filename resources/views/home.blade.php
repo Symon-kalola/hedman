@@ -90,7 +90,7 @@
                     <div class="card mb-3 shadow-sm " style="width:100%; " data-scrollreveal="enter top over 1s after 1s">
                     <div class="row no-gutters">
                     <div class="col-md-4 shadow-sm py-2 ">
-                        <img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="...">
+                        <img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="..." >
                         <p class="text-primary px-3"><em>{{ $activity->caption }}</em></p>
                         <p class="card-text px-3"><small class="text-muted">{{ $activity->updated_at->diffForHumans( ) }}</small></p>
 
@@ -129,10 +129,5 @@
         <script type="/text/javascript" src="js/mdb.min.js"></script>
         <script src="/js/jquery-3.6.0.min.js"></script>
 </div>
-<script>
-    function posting()
-    {
-        window.alert('Posted Successfully')
-    }
-</script>
+
 @endsection

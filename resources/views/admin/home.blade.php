@@ -13,7 +13,7 @@
               <div class=" d-flex align-items-center justify-content-between">
                    <div class="">
                        <h4 class="fw-bold text-blue">{{ $activities->count() }}</h4>
-                       <div style="font-size:14px" class="fw-bold text-orange">POSTED ACTIVITIES</div>
+                       <div style="font-size:14px" class="fw-bold text-orange">ACTIVITIES</div>
                    </div>
                   <div class="text-end">
                     <i style="font-size:30px" class="fa fa-building text-primary"></i>

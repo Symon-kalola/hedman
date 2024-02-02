@@ -13,14 +13,14 @@
         <div class="col-md-8">
             
               <div class="d-flex mb-1">
-              <a href="{{ route('home') }}" style="font-size:12px" class="text-white btn btn-secondary btn-sm"><i class="fa text-white fa-arrow-left"></i>  Back to home</a>
+              <a href="{{ route('home') }}" style="font-size:12px" class="text-white btn btn-success btn-sm"><i class="fa text-white fa-arrow-left"></i>  Back to home</a>
             </div>
             
             <div class="card">
                 <div  class="text-center shadow-md card-header bg-white bg-gradient">
                  <div>
-                          <img src="images/pocist.jpeg" height="100px" alt="">
-                         <h5 class="h6 text-blue " style="font-weight:900">POCITS LOGIN</h5>
+                          <img src="images/icon.png" height="100px" alt="">
+                         <h5 class="h6 text-success " style="font-weight:900">HEDMAN LOGIN</h5>
                  </div>
                 </div>
             
@@ -71,12 +71,12 @@
 
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-success">
                                     {{ __('Login') }}
                                 </button>
 
                                 @if (Route::has('password.request'))
-                                    <a class="btn btn-link" href="{{ route('password.request') }}">
+                                    <a class="btn btn-link text-success" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
                                 @endif

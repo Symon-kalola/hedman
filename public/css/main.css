@@ -214,3 +214,12 @@ width: 100%;
     background: #cce9f7;
     color: #1a92ce;
 }
+.circle{
+    width: 30px;
+    height: 20px;
+    border-radius: 50%;
+    border : 2px solid green;
+    font-size: 11px;
+    background-color: rgb(18, 90, 56);
+ 
+}

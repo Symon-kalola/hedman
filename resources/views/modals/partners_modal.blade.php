@@ -32,7 +32,7 @@
         <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
         <br><br>-->
 
-        <input type="submit" value="Submit">
+        <input type="submit" class="bg-success" value="Submit">
 
         </form>
         </div>
