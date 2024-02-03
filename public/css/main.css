@@ -223,3 +223,32 @@ width: 100%;
     background-color: rgb(18, 90, 56);
  
 }
+.about-card:hover {
+    background-color: #36693f;
+    color: white;
+    cursor: pointer;
+ 
+    
+}
+.about-card-h{
+    border: nome;
+    border-bottom: #2c5837 2px solid ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    
+    
+    
+    
+}
+.about-h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+
+}
+.about-h{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;;
+        
+
+}
+
