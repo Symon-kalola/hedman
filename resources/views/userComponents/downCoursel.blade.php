@@ -3,7 +3,7 @@
     <div class="card ms-2 mt-2 mb-2" style="height: 200px; overflow:hidden;">
         <div class="row d-flex">
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
-                <img src="/images/tip.jpg"    class="rounded-circle" alt="">
+                <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
                     <h5 class="text-primary ms-2 mt-2">Symon Kalola </h5>
                    
@@ -23,7 +23,7 @@
     <div class="card ms-2 mt-2 mb-2" style="height: 200px; overflow:hidden;">
         <div class="row d-flex">
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
-                <img src="/images/tip.jpg"    class="rounded-circle" alt="">
+                <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
                     <h5 class="text-primary ms-2 mt-2">Symon Kalola </h5>
                    
@@ -43,7 +43,7 @@
     <div class="card ms-2 mt-2 mb-2" style="height: 200px; overflow:hidden;">
         <div class="row d-flex">
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
-                <img src="/images/tip.jpg"    class="rounded-circle" alt="">
+                <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
                     <h5 class="text-primary ms-2 mt-2">Symon Kalola </h5>
                    
@@ -63,7 +63,7 @@
     <div class="card ms-2 mt-2 mb-2" style="height: 200px; overflow:hidden;">
         <div class="row d-flex">
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
-                <img src="/images/tip.jpg"    class="rounded-circle" alt="">
+                <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
                     <h5 class="text-primary ms-2 mt-2">Symon Kalola </h5>
                    

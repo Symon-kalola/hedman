@@ -20,7 +20,7 @@
                 </tr>
             </thead>
             <tbody>
-              @for ($x=0;$x<=20;$x++)
+              @for ($x=0;$x<=4;$x++)
                   <tr>
                 <th scope="row">{{$x }}</th>
                 <td>Blueghum</td>

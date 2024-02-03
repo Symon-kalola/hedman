@@ -25,7 +25,7 @@ Route::get('/', [HomeController::class, 'index'])->name('homes');
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::post('/home/partners/req', [HomeController::class, 'request'])->name('request');
 
-Route::get('/innovations', [HomeController::class, 'innovation'])->name('innovations');
+Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 Route::get('/about', [HomeController::class, 'about'])->name('bout');
 
 Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder');

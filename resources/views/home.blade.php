@@ -18,7 +18,7 @@
                             </div>
 
                             <div class="d-flex justify-content-center mt-4" data-scrollreveal="enter bottom over 1.5s after 0.1s">
-                                <a class="btn btn-lg text-white border border-success" data-bs-toggle="modal" data-bs-target="#partners_modal"> Make your order now </a>
+                                <a class="btn btn-lg text-white border border-success disabled" data-bs-toggle="modal" data-bs-target="#partners_modal"> Make your order now </a>
                             </div>
                         </div>
             </div>
@@ -90,13 +90,17 @@
                     <div class="card mb-3 shadow-sm " style="width:100%; " data-scrollreveal="enter top over 1s after 1s">
                     <div class="row no-gutters">
                     <div class="col-md-4 shadow-sm py-2 ">
-                        <img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="..." >
+                        <div style="  height: 400px;
+                           overflow: hidden;" >
+                       <a href='/storage/{{$activity->image  }}'target="_blank"><img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="..." ></a> 
+                        </div>
                         <p class="text-primary px-3"><em>{{ $activity->caption }}</em></p>
                         <p class="card-text px-3"><small class="text-muted">{{ $activity->updated_at->diffForHumans( ) }}</small></p>
 
                     </div>
                     <div class="col-md-8">
-                    <div class="card-body">
+                    <div class="card-body" style="  height: 400px;
+                           overflow: hidden;" >
                         <h5 class="card-title text-primary ">{{ $activity->title}}</h5>
                         <p class="card-text">{{$activity->description }}</p>
                       

@@ -4,7 +4,7 @@
   <div class=" pt-4 shadow-sm">
     <h4 class="text-success  text-center about-h1 ">ABOUT US</h4>
     <p>At Hedman Nurseries, we take pride in nurturing nature and providing top-quality pine 
-      and spruce seedlings to create a greener, more vibrant world. With a legacy spanning over 5 years,
+      and spruce seedlings to create a greener, more vibrant world. With a legacy spanning over 8 years,
        we have established ourselves as a trusted name in the horticultural industry.Our Story
         Founded in [Year], Hedman Nurseries began as a humble family venture, motivated by a 
         deep-seated passion for nurturing the wonders of nature. Over the years, our commitment to excellence, 

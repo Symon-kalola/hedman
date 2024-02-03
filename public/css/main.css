@@ -12,9 +12,9 @@ footer{
 
 }
 .footer-row{
-    border-top: rgb(29, 153, 45) 3px solid;
+    border-top: rgb(237, 247, 238) 1px solid;
     height: 100px;
-   
+    margin-top: 10px;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -251,4 +251,10 @@ width: 100%;
         
 
 }
+.disabled{
+    pointer-events: none;
+    color: rgb(131, 123, 123);
+    text-decoration: none;
+}
+
 

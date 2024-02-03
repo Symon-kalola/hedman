@@ -33,9 +33,9 @@ class HomeController extends Controller
     {    
          return view('about');
     }
-      public function innovation()
+      public function gallery()
     {      $innovations = innovations::all();
-         return view('innovation')->with('innovations',$innovations);
+         return view('gallery')->with('innovations',$innovations);
     }
       public function request(Request $request)
     {    

@@ -54,15 +54,16 @@
                                 <a class="nav-link text-success" aria-current="page" href="/home">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-success" href="/innovations">Gallery</a>
+                                <a class="nav-link text-success" href="/gallery">Gallery</a>
+                            </li>
+                               <li class="nav-item dropdown">
+                                <a class="nav-link  disabled" href="/2/orders">My Orders <span class=" text-white circle"><small>0</small></span></a>
                             </li>
                         
                             <li class="nav-item dropdown">
-                                <a class="nav-link text-success" href="/about">About</a>
+                                <a class="nav-link text-success" href="/about">About us</a>
                             </li>
-                             <li class="nav-item dropdown">
-                                <a class="nav-link text-success" href="/2/orders">My Orders <span class=" text-white circle"><small>10</small></span></a>
-                            </li>
+                          
                         </ul>
 
                     </ul>
@@ -70,7 +71,7 @@
                     <!-- Right Side Of Navbar -->
                     
                     <div>
-                    <ul class="navbar-nav ms-auto">
+                    <ul class="navbar-nav ms-auto disabled">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -126,29 +127,31 @@
                    Leave Message/ FeedBack
                 </div>
                 <div class=" form-outline text-white">
-                    <label  class="form-label text-white" for="nameMessage">Your Name</label>
-                     <textarea name="" style="height: 10px"  class="form-control bg-success text-white border-white" id="nameMessage" cols="30" rows="4" style="background:transparent;"></textarea>
+                    <label  class="form-label text-white disabled" for="nameMessage">Your Name</label>
+                     <textarea name="" style="height: 10px " disabled  class="form-control bg-success text-white border-white" id="nameMessage" cols="30" rows="4" style="background:transparent;"></textarea>
                      
                  </div>
                  <div class="form-outline text-white">
                         <label for="" class="form-label text-white">Your Message</label>
-                        <textarea name="" style="height: 30px"  class="form-control bg-success text-white border-white" id="descriptionMessage" cols="30" rows="4" style="background:transparent;"></textarea>
+                        <textarea name="" disabled style="height: 30px"  class="form-control bg-success text-white border-white" id="descriptionMessage" cols="30" rows="4" style="background:transparent;"></textarea>
                  </div>
                 
              </div>
              <div class="col-sm-4 mt-2 footer-col text-white">
                  <h5>Quick Links</h5>
-                 <a href="#">Home</a><br>
-                 <a href="#">Gallery</a><br>
-                 <a href="#">About</a><br>
-                 
-                 <a href="#">About Us</a>
+                 <a href="/home">Home</a><br>
+                 <a href="/gallery">Gallery</a><br>         
+                 <a href="/about">About Us</a>
              </div>
              <div class="col-sm-4 footer-col text-white">
                  <h5><a href="#"></a></h5>
-                 <h5>Contact Us:</h5>
-                 <p>0998672577<br>email:hedman@gmail.com<br>
+                 <h5><span class="fa fa-phone-volume me-2"></span>Contact Us:</h5>
+                 <p>0998672577 <br>
+                    <a href="mailto:bis19-skalola@poly.ac.mw " >Send email</a>
+
                  </p>
+                 <P class="small">Or visit our offices located in Gwamba bulding behind <br>Northen region Water board Kawiluwilu house</P>
+
 
 
 
@@ -156,9 +159,9 @@
 
              <div class="d-flex  footer-row px-sm-5">
                  <h5 class="pt-3 text-center  px-md-5">
-                     <a href="https://facebook.com/groups/689169124490599/"><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
-                     <a href="#"><span class="fab fa-whatsapp themec "></span> whatsapp</a>
-                     <a href="#"><span class="fab fa-twitter mx-1 text-primary"></span>twitter</a>
+                     <a href="https://facebook.com/groups/689169124490599/" ><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
+                     <a href="#" class="disabled"><span class="fab fa-whatsapp themec " ></span> whatsapp</a>
+                     <a href="#" class="disabled"><span class="fab fa-twitter mx-1 text-primary"></span>twitter</a>
 
                      <h5>
              </div>
