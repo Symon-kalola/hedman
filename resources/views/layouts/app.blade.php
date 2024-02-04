@@ -151,10 +151,6 @@
 
                  </p>
                  <P class="small">Or visit our offices located in Gwamba bulding behind <br>Northen region Water board Kawiluwilu house</P>
-
-
-
-
              </div>
 
              <div class="d-flex  footer-row px-sm-5">

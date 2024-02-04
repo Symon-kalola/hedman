@@ -102,7 +102,7 @@
 
                                </div>
                             </div>
-                            <div class="mt-1"> Pocits Administrator</div> 
+                            <div class="mt-1"> Hedman Administrator</div> 
                         </div>
 
                         <div class="list-group  text-secondary border-0" id="list-tab" role="tablist">
@@ -119,7 +119,7 @@
 
                         </div>
 
-                        <div class="small text-orange text-center  mt-5 pt-4 ">&copy; pocits@php echo date('Y') @endphp</div>
+                        <div class="small text-orange text-center  mt-5 pt-4 ">&copy; hedman @php echo date('Y') @endphp</div>
                         
                 </div>
                 <!-- end of desktop nav -->

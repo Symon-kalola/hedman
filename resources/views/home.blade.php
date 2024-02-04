@@ -14,7 +14,7 @@
                         <div >
                             <div class="text-center" data-scrollreveal="enter top over 0.8s after 0.5s">
                                 <h1 class="text-white" id="banner-heading">HEDMAN NURSARIES COMPANY</h1>
-                                <h4 class="text-white" id="banner-subheading">We Sell,Transport,Plant Pine & Bluegam seedlings</h4>
+                                <h4 class="text-white" id="banner-subheading">We Sell,Transport,Plant Pine & BlueGum seedlings</h4>
                             </div>
 
                             <div class="d-flex justify-content-center mt-4" data-scrollreveal="enter bottom over 1.5s after 0.1s">
@@ -90,7 +90,7 @@
                     <div class="card mb-3 shadow-sm " style="width:100%; " data-scrollreveal="enter top over 1s after 1s">
                     <div class="row no-gutters">
                     <div class="col-md-4 shadow-sm py-2 ">
-                        <div style="  height: 400px;
+                        <div style=" max-height: 400px;
                            overflow: hidden;" >
                        <a href='/storage/{{$activity->image  }}'target="_blank"><img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="..." ></a> 
                         </div>
@@ -99,7 +99,7 @@
 
                     </div>
                     <div class="col-md-8">
-                    <div class="card-body" style="  height: 400px;
+                    <div class="card-body" style=" max-height: 400px;
                            overflow: hidden;" >
                         <h5 class="card-title text-primary ">{{ $activity->title}}</h5>
                         <p class="card-text">{{$activity->description }}</p>

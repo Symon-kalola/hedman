@@ -3,8 +3,7 @@
 <link rel="stylesheet" href="/css/innoc.css">
 <h4 class="text-center gh text-success" >Hedman Nursary Photos</h4>
     <div class="container-fluid ">
-        @for ($x=0;$x<=1;$x++)
-            
+       
        
    
         <div class="row" >
@@ -21,7 +20,7 @@
 
             
         </div>
-         @endfor
+        
         
 
 
