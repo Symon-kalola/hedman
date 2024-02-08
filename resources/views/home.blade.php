@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@include('modals.partners_modal')
+
 
  <script src="/js/anim.js"></script>
 @section('content')
@@ -13,13 +13,16 @@
                     <div id="banner-top" class="d-flex justify-content-center h-100  align-items-center"> 
                         <div >
                             <div class="text-center" data-scrollreveal="enter top over 0.8s after 0.5s">
-                                <h1 class="text-white" id="banner-heading">HEDMAN NURSARIES COMPANY</h1>
+                                <h1 class="text-white" id="banner-heading">HEDMAN NURSARIES </h1>
                                 <h4 class="text-white" id="banner-subheading">We Sell,Transport,Plant Pine & BlueGum seedlings</h4>
                             </div>
+                              <div class="d-flex justify-content-center mt-4" data-scrollreveal="enter bottom over 1.5s after 0.1s">
+                                {{-- <a class="btn btn-lg text-white border border-success " > Make your order now </a> --}}
+                                <a class="btn btn-lg text-white border border-success " href="/orders" > Make your order now </a>
+                             </div> 
+                        
 
-                            <div class="d-flex justify-content-center mt-4" data-scrollreveal="enter bottom over 1.5s after 0.1s">
-                                <a class="btn btn-lg text-white border border-success disabled" data-bs-toggle="modal" data-bs-target="#partners_modal"> Make your order now </a>
-                            </div>
+                       
                         </div>
             </div>
         </div>

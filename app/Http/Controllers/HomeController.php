@@ -7,7 +7,11 @@ namespace App\Http\Controllers;
 use App\Models\activities;
 use App\Models\innovations;
 use App\Models\partners;
+use App\Models\feedbackModell;
+use App\Models\customerOrders;
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use SebastianBergmann\CodeUnit\FunctionUnit;
 
 class HomeController extends Controller
@@ -39,7 +43,7 @@ class HomeController extends Controller
     }
       public function request(Request $request)
     {    
-     $req = new partners();
+      $req = new partners();
         
         $req->name = $request->name;
         $req->email = $request->email;
@@ -54,10 +58,43 @@ class HomeController extends Controller
     }
     public function getOrders()
     {
-     return view('Orders');
+     $orders = customerOrders::all()->where('user_id',Auth::id());
+     return view('Orders')->with('orders',$orders) ;
     }
-    public Function storeOrder()
+    public Function storeOrder(Request $request)
     {
-     dd('storing the orders');
+     
+     
+       $req = new customerOrders();
+        
+        $req->user_id = Auth::id();
+        $req->pine = $request->pine;
+        $req->blue = $request->blue;
+        $req->phone1 = $request->airtel;
+        $req->phone2 = $request->tnm;
+        $req->price = ($request->pine + $request->blue) *185;
+         
+        
+        $req->payment = 'none';
+        $req->district = $request->district;
+        $req->place = $request->place;
+        $req->status = 'Pending review';
+        $req->save();
+        
+        return(redirect()->back());
+     
+     
+       
+    
+    }
+    public function feebackStore(Request $request){
+      $req = new feedbackModell();
+      $req->name = $request->name;
+      $req->message = $request->feedback;
+      $req->save();
+      return (redirect()->back());
+       
+      
+      
     }
 }

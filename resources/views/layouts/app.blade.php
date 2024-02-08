@@ -10,11 +10,10 @@
     <title>{{ 'Pocits' }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    {{-- <script src="{{ asset('js/app.js') }}" defer></script> --}}
+    <script src="{{ mix('js/app.js') }}"></script>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -26,6 +25,7 @@
     <script src="{{ asset('js/main.js') }}" ></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}" ></script>
     <script src="{{ asset('js/jquery-3.6.0.min.js') }}" ></script>
+      <script src="{{ asset('js/jquery.min.js') }}"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,15 +33,12 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
 </head>
 <body>
-    <script>
-        AOS.init() 
-    </script>
     <div id="app ">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" >
             <div class="container-fluid">
                  <a class="navbar-brand logo text-success" href="#"><img style="height:30px;width:auto; font-weight:bolder;"
                     src="images/icon.png"  class="mx-2 image-fluid rounded-circle"
-                    alt="..">HEADMAN</a>
+                    alt="..">HEDMAN</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -124,19 +121,25 @@
          <div class="row  text-white ">
              <div class="col-sm-4  ">
                 <div class="h4 text-white border-1 border-primary border-2 ">
-                   Leave Message/ FeedBack
+                   Leave FeedBack
                 </div>
                 <div class=" form-outline text-white">
-                    <label  class="form-label text-white disabled" for="nameMessage">Your Name</label>
-                     <textarea name="" style="height: 10px " disabled  class="form-control bg-success text-white border-white" id="nameMessage" cols="30" rows="4" style="background:transparent;"></textarea>
-                     
-                 </div>
-                 <div class="form-outline text-white">
-                        <label for="" class="form-label text-white">Your Message</label>
-                        <textarea name="" disabled style="height: 30px"  class="form-control bg-success text-white border-white" id="descriptionMessage" cols="30" rows="4" style="background:transparent;"></textarea>
-                 </div>
+                    <form method="POST" action="/feedback/store">
+                        @csrf
+                           
+                            {{-- <textarea name="" style="height: 10px " disabled  class="form-control bg-success text-white border-white" id="nameMessage" cols="30" rows="4" style="background:transparent;"></textarea> --}}
+                            <input type="text" class="form-control form-control-sm text-success " name="name" id="place" placeholder="name">
+
+                        </div>
+                        <div class="form-outline text-white">
+                                <label for="" class="form-label text-white">Your Message</label>
+                                <textarea name="feedback"   class="form-control bg-success text-white border-white" id="feedback" cols="30" rows="4" style="background:transparent;"></textarea>
+                        </div>
+                      <button type="submit" class="btn btn-sm btn-primary tex-white mt-1">Send Feedback</button>
+
+                      </form>
                 
-             </div>
+               </div>
              <div class="col-sm-4 mt-2 footer-col text-white">
                  <h5>Quick Links</h5>
                  <a href="/home">Home</a><br>
@@ -147,10 +150,10 @@
                  <h5><a href="#"></a></h5>
                  <h5><span class="fa fa-phone-volume me-2"></span>Contact Us:</h5>
                  <p>0998672577 <br>
-                    <a href="mailto:bis19-skalola@poly.ac.mw " >Send email</a>
+                    <a href="mailto:hedmannursery.gmail.com " >Send email</a>
 
                  </p>
-                 <P class="small">Or visit our offices located in Gwamba bulding behind <br>Northen region Water board Kawiluwilu house</P>
+                 <P class="small">Or visit our offices located in Gwamba bulding behind <br>Northen region Water board Kawiluwilu house in Mzuzu</P>
              </div>
 
              <div class="d-flex  footer-row px-sm-5">
@@ -160,6 +163,7 @@
                      <a href="#" class="disabled"><span class="fab fa-twitter mx-1 text-primary"></span>twitter</a>
 
                      <h5>
+
              </div>
 
          </div>
@@ -170,6 +174,7 @@
 </body>
 
 <script>
+    
      function setupConfirmDelete(btn){
    
       $('#confirm_delete_name').text($(btn).attr('data-name'));

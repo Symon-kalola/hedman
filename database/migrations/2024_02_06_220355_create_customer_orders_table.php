@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePartnersTable extends Migration
+class CreateCustomerOrdersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class CreatePartnersTable extends Migration
      */
     public function up()
     {
-        Schema::create('partners', function (Blueprint $table) {
-           
-             $table->bigIncrements('id');
+        Schema::create('customer_orders', function (Blueprint $table) {
+            $table->bigIncrements('id');
+             $table->foreignId('user_id')
+            ->constrained('users')
+            ->onUpdate('cascade')
+            ->onDelete('cascade');
             $table->string('pine');
             $table->string('blue');
             $table->string('price');
@@ -25,9 +28,8 @@ class CreatePartnersTable extends Migration
             $table->string('district');
             $table->string('place');
             $table->string('status');
-            
             $table->timestamps();
-            
+       
         });
     }
 
@@ -38,6 +40,6 @@ class CreatePartnersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('partners');
+        Schema::dropIfExists('customer_orders');
     }
 }

@@ -1,7 +1,7 @@
 @extends('layouts.app');
 @section('content')
 <link rel="stylesheet" href="/css/innoc.css">
-<h4 class="text-center gh text-success" >Hedman Nursary Photos</h4>
+<h4 class="text-center gh text-success" >Hedman Nurseries Photos</h4>
     <div class="container-fluid ">
        
        
