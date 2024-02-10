@@ -31,11 +31,10 @@ Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::post('/home/partners/req', [HomeController::class, 'request'])->name('request');
 
 Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
-Route::get('/about', [HomeController::class, 'about'])->name('bout');
+Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::post('/feedback/store', [HomeController::class, 'feebackStore'])->name('storefeedackb');
 
-   Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder');
-   // ->middleware(['auth', 'verified']);
+   Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder') ->middleware(['auth', 'verified']);
    Route:: get('/orders', [HomeController::class, 'getOrders'])->name('getOrders');
    // ->middleware(['auth', 'verified']);    
 

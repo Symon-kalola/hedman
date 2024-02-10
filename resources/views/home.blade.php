@@ -3,12 +3,12 @@
 
  <script src="/js/anim.js"></script>
 @section('content')
-<div style="margin-top: -20px;" class="container-fluid shadow-lg">
+<div style="margin-top: -20px;" class="container-fluid shadow-lg ">
       <!-- -coursel starts from here -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide  " data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item bg-white carousel-img carousel-img active" style=" background-image: url('/images/py.jpeg'); 
-            background-size: cover;">
+            <div class="carousel-item bg-white carousel-img carousel-img active" style=" background-image: url('/images/mani.jpg'); 
+            background-size: cover; background-color:green; ">
                         <div id="banner" >
                     <div id="banner-top" class="d-flex justify-content-center h-100  align-items-center"> 
                         <div >
@@ -28,7 +28,7 @@
         </div>
                 
             </div>
-            <div class="carousel-item bg-white carousel-img" style=" background-image: url('/images/banner1.jpg'); 
+            <div class="carousel-item bg-white carousel-img" style=" background-image: url('/images/pym.jpeg'); 
             background-size: cover;">
                 {{-- inner containner starts here --}}
               <div class="container d-flex justify-content-center align-items-center"  style="height: 100%;" >
