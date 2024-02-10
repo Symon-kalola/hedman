@@ -43,8 +43,8 @@
      <nav class="main-nav navbar navbar-expand-lg navbar-light bg-white  sticky-top">
         <div class="container-fluid">
              <a class="navbar-brand logo" href="#"><img style="height:45px;width:auto; font-weight:bolder;"
-                src="/images/pocist.jpeg"  class="mx-2 image-fluid rounded-circle"
-                    alt="..">POCITS</a>
+                src="/images/icon.png"  class="mx-2 image-fluid rounded-circle"
+                    alt="..">HEDMAN</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
              <i class="fa fa-bars"></i>
             </button>
@@ -107,14 +107,14 @@
 
                         <div class="list-group  text-secondary border-0" id="list-tab" role="tablist">
                             <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/home')  active @endif"  href="/admin/home" aria-controls="list-home" ><span class="fa fa-home m-2  @if(Route::currentRouteName() == '/admin/home')  text-white @else text-bs-secondary @endif"></span>HOME</a>
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/posts/activities')  active @endif"   href="/admin/posts/activities"><span class="fa fa-clipboard-list m-2 @if(Route::currentRouteName() == '/admin/posts/activities')  text-white @else text-bs-secondary @endif"></span>Activities Posts</a>
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/posts/innovations')  active @endif"   href="/admin/posts/innovations"><span class="fa fa-clipboard-list m-2 @if(Route::currentRouteName() == '/admin/posts/innovations')  text-white @else text-bs-secondary @endif"></span>Innovation Posts</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/posts/activities')  active @endif"   href="/admin/posts/activities"><span class="fa fa-clipboard-list m-2 @if(Route::currentRouteName() == '/admin/posts/activities')  text-white @else text-bs-secondary @endif"></span>Product Posted</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/posts/innovations')  active @endif"   href="/admin/posts/innovations"><span class="fa fa-clipboard-list m-2 @if(Route::currentRouteName() == '/admin/posts/innovations')  text-white @else text-bs-secondary @endif"></span>Photos Posted</a>
 
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/activity')  active @endif"   href="/admin/activity"  aria-controls="list-messages"><span class="fa fa-users m-2 @if(Route::currentRouteName() == '/admin/activity')  text-white @else text-bs-secondary @endif"></span>Add activity</a>
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/innovation')  active @endif"   href="/admin/innovation"><span class="fa fa-rocket m-2 @if(Route::currentRouteName() == '/admin/innovation')  text-white @else text-bs-secondary @endif"></span>Add innovation</a>
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin.partners')  active @endif"   href="/admin/partners"><span class="fa fa-address-card m-2 @if(Route::currentRouteName() == '/admin/partners')  text-white @else text-bs-secondary @endif"></span>Partners</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/activity')  active @endif"   href="/admin/activity"  aria-controls="list-messages"><span class="fa fa-users m-2 @if(Route::currentRouteName() == '/admin/activity')  text-white @else text-bs-secondary @endif"></span>Add Product</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/innovation')  active @endif"   href="/admin/innovation"><span class="fa fa-rocket m-2 @if(Route::currentRouteName() == '/admin/innovation')  text-white @else text-bs-secondary @endif"></span>Add Photos</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin.partners')  active @endif"   href="/admin/partners"><span class="fa fa-address-card m-2 @if(Route::currentRouteName() == '/admin/partners')  text-white @else text-bs-secondary @endif"></span>Orders</a>
 
-                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/help')  active @endif"   href=" /admin/help"  aria-controls="list-messages"><span class="fa fa-question m-2 @if(Route::currentRouteName() == '/admin/help')  text-white @else text-bs-secondary @endif"></span>help</a>
+                            <a style="font-size:12px " class="border-0 rounded-0 border-top list-group-item list-group-item-action text-bs-secondary @if(Route::currentRouteName() == '/admin/help')  active @endif"   href=" /admin/help"  aria-controls="list-messages"><span class="fa fa-envelope m-2 @if(Route::currentRouteName() == '/admin/help')  text-white @else text-bs-secondary @endif"></span>Feedback Messages</a>
 
 
                         </div>

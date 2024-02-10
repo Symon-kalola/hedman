@@ -14,16 +14,10 @@ class CreateInnovationsTable extends Migration
     public function up()
     {
         Schema::create('innovations', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('title');
-            $table->string('caption');
-            $table->string('description');
             $table->string('image');
 
-            $table->string('innovator');
-            $table->string('email');
-            $table->string('program');
-            $table->string('year');
+            $table->text('innovator');
+          
             $table->timestamps();
         });
     }

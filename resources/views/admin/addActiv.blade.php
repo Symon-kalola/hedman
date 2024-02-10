@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 @section('content')
  <div class="card border-primary mb-3" style="max-width: 70%;margin:auto;">
-  <div class="card-header  border-primary"><h4>Activity Information</h4></div>
+  <div class="card-header  border-primary"><h4>Products Information</h4></div>
   <div class="card-body text-primary">
     <form action="/admin/add/activity"  method="post" enctype="multipart/form-data" >
                
@@ -31,7 +31,7 @@
                      
                 </div>
                 <div class="card-footer">
-                        <button onclick="posting()" style="font-size:12px"  class="btn btn-primary text-white btn-sm shadow-ms" >Post</button>
+                        <button  style="font-size:12px"  class="btn btn-primary text-white btn-sm shadow-ms" >Post</button>
                 </div>
                 </div>
 
@@ -42,12 +42,7 @@
 
   </div>
 </div>
-<script>
-    function posting()
-    {
-        window.alert('Posted Successfully')
-    }
-</script>
+
 
 
 @endsection

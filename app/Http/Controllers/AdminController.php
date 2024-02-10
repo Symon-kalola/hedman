@@ -80,14 +80,10 @@ class AdminController extends Controller
 
        $innov = new innovations();
         
-        $innov->title = $request->title;
-        $innov->caption = $request->caption;
-        $innov->description = $request->description;
+    
         $innov->image = request('image')->store('uploads','public');
         $innov->innovator = $request->innovator;
-        $innov->email = $request->email;
-        $innov->program = $request->program;
-        $innov->year = $request->year;
+      
         $innov->save();
         
         

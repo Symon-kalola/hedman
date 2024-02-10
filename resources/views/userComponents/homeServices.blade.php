@@ -4,8 +4,8 @@
                         <div class="card  ">
                           <i class="bi fa fa-car-side"></i>
                         <div class="card-body" style="margin-top: -50px;">
-                            <h5 class="card-title text-success">Free Delivery</h5>
-                            <p class="card-text">We deliver the seedlings at MK0 transport cost country wide. 
+                            <h5 class="card-title text-success">Free Sending or Delivery</h5>
+                            <p class="card-text">We Send or deliver the seedlings for Free country wide. 
                                 Experience the convenience of free delivery with Headman Nurseries! We are
                                  pleased to offer complimentary delivery services on all orders,
                                   ensuring your high-quality pine and bluegum seedlings reach your doorstep
@@ -21,12 +21,11 @@
                         <div class="card-body"  style="margin-top: -50px;">
                             <h5 class="card-title text-success">Planting Labour</h5>
                             <p class="card-text">Unlock cost-effective solutions for your planting,making firebreak and prunning needs with our budget-friendly labor 
-                                services at Headman Nurseries! Our skilled and dedicated team is ready to assist 
+                                services at Hedman Nurseries! Our skilled and dedicated team is ready to assist 
                                 you at affordable rates, ensuring that the planting and prunning process is not only
-                                 seamless but also light on your pocket. Experience the perfect blend of 
-                                 quality products and economical assistance with Headman Nurseries 
-                                  where affordability meets expertise. Let us handle the labor while you
-                                   focus on watching your pine and bluegum seedlings flourish. </p>
+                                 seamless but also light on your pocket.<span class="text-success"> If you are outside the country,
+                                  or you are far from your farm or you cannot manage to plant the seedlings properly by yourself,
+                                   <a href="#num" ><b>Call Us</b></a> or <a href="https://wa.me/265998672577" ><b>Whatsapp</b></a>. We will do the planting and caring work on your behalf at very cheap cost. </span> </p>
                         </div>
                         </div>
                     </div>
@@ -34,9 +33,9 @@
                         <div class="card mt-4 mt-md-0 ">
                           <i class="bi fa fa-tree"></i>
                         <div class="card-body"  style="margin-top: -50px;">
-                            <h5 class="card-title text-success">Consultation Services</h5>
+                            <h5 class="card-title text-success">Free Consultation Services</h5>
                             <p class="card-text ">Discover the pathway to a thriving garden with our expert consultation services
-                                 at Headman Nurseries! Our seasoned professionals are here to guide you through 
+                                 at Hedman Nurseries! Our seasoned professionals are here to guide you through 
                                  every step of the planting journey. From selecting the right pine and bluegum 
                                  seedlings to offering valuable insights on care and maintenance, our consultation 
                                  services ensure you make informed decisions for a flourishing garden. Elevate your

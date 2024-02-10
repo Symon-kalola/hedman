@@ -37,7 +37,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm" >
             <div class="container-fluid">
                  <a class="navbar-brand logo text-success" href="#"><img style="height:30px;width:auto; font-weight:bolder;"
-                    src="images/icon.png"  class="mx-2 image-fluid rounded-circle"
+                    src="/images/icon.png"  class="mx-2 image-fluid rounded-circle"
                     alt="..">HEDMAN</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -54,7 +54,7 @@
                                 <a class="nav-link text-success" href="/gallery">Gallery</a>
                             </li>
                                <li class="nav-item dropdown">
-                                <a class="nav-link  disabled" href="/2/orders">My Orders <span class=" text-white circle"><small>0</small></span></a>
+                                <a class="nav-link text-success  " href="/orders">My Orders <span class=" text-white circle"><small>0</small></span></a>
                             </li>
                         
                             <li class="nav-item dropdown">
@@ -68,7 +68,7 @@
                     <!-- Right Side Of Navbar -->
                     
                     <div>
-                    <ul class="navbar-nav ms-auto disabled">
+                    <ul class="navbar-nav ms-auto ">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -149,20 +149,21 @@
              <div class="col-sm-4 footer-col text-white">
                  <h5><a href="#"></a></h5>
                  <h5><span class="fa fa-phone-volume me-2"></span>Contact Us:</h5>
-                 <p>0998672577 <br>
-                    <a href="mailto:hedmannursery.gmail.com " >Send email</a>
+                 <p id="num">0998672577 <br>
+               <a href="https://wa.me/265998672577" ><span class="fab fa-whatsapp themec mx-1 " ></span>Chat on whatsapp</a>
+              <a href="https://facebook.com/groups/689169124490599/" ><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
+
+                    <br>
+                    <a href="mailto:hedmannursery.gmail.com " class="fa fa-envelope" >  Send email</a>
 
                  </p>
                  <P class="small">Or visit our offices located in Gwamba bulding behind <br>Northen region Water board Kawiluwilu house in Mzuzu</P>
+   
              </div>
 
              <div class="d-flex  footer-row px-sm-5">
-                 <h5 class="pt-3 text-center  px-md-5">
-                     <a href="https://facebook.com/groups/689169124490599/" ><span class="fab fa-facebook mx-1  " style="color: rgba(18, 132, 224, 0.877)"></span>facebook</a>
-                     <a href="#" class="disabled"><span class="fab fa-whatsapp themec " ></span> whatsapp</a>
-                     <a href="#" class="disabled"><span class="fab fa-twitter mx-1 text-primary"></span>twitter</a>
-
-                     <h5>
+                  <h6>hedman &copy; 2024</h6>
+                 
 
              </div>
 

@@ -5,7 +5,7 @@
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
                 <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
-                    <h5 class="text-primary ms-2 mt-2">Mrs Uchizi Ngoma </h5>
+                    <h5 class="text-success ms-2 mt-2">Mrs Uchizi Ngoma </h5>
                    
                 </div>
             </div>
@@ -24,7 +24,7 @@
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
                 <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
-                    <h5 class="text-primary ms-2 mt-2">Martin Msukwa </h5>
+                    <h5 class="text-success ms-2 mt-2">Martin Msukwa </h5>
                    
                 </div>
             </div>
@@ -43,7 +43,7 @@
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
                 <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
-                    <h5 class="text-primary ms-2 mt-2"> Bernard Mtende </h5>
+                    <h5 class="text-success ms-2 mt-2"> Bernard Mtende </h5>
                    
                 </div>
             </div>
@@ -61,7 +61,7 @@
             <div class="col-8 d-flex ms-2 mt-3"  style="height: 50px;">
                 <img src="/images/users.png"    class="rounded-circle" alt="">
                 <div style="d-flex">
-                    <h5 class="text-primary ms-2 mt-2">Symon Kalola </h5>
+                    <h5 class="text-success ms-2 mt-2">Symon Kalola </h5>
                    
                 </div>
             </div>

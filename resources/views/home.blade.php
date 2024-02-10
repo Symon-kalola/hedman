@@ -14,7 +14,7 @@
                         <div >
                             <div class="text-center" data-scrollreveal="enter top over 0.8s after 0.5s">
                                 <h1 class="text-white" id="banner-heading">HEDMAN NURSARIES </h1>
-                                <h4 class="text-white" id="banner-subheading">We Sell,Transport,Plant Pine & BlueGum seedlings</h4>
+                                <h4 class="text-white" id="banner-subheading">We Sell,Transport,Plant hybrid Pine & BlueGum seedlings</h4>
                             </div>
                               <div class="d-flex justify-content-center mt-4" data-scrollreveal="enter bottom over 1.5s after 0.1s">
                                 {{-- <a class="btn btn-lg text-white border border-success " > Make your order now </a> --}}
@@ -33,17 +33,26 @@
                 {{-- inner containner starts here --}}
               <div class="container d-flex justify-content-center align-items-center"  style="height: 100%;" >
                 <div class="row row-cols-1 row-cols-md-3 g-4 text-center my-auto ">
-                    <div class="col ">
+                    <div class="col  ">
                         <div class="card  ">
+                          <i class="bi fa fa-tree"></i>
+                        <div class="card-body" style="margin-top: -50px;">
+                            <h5 class="card-title text-success">Our Sedlings</h5>
+                            <p class="card-text ">We sell hybrid Pine & Bluegum  seeds as well at a cheeper cost </p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card mt-4 mt-md-0  ">
                           <i class="bi fa fa-car-side"></i>
                         <div class="card-body" style="margin-top: -50px;">
-                            <h5 class="card-title text-success">Free Delivery</h5>
+                            <h5 class="card-title text-success">Free Sending or Delivery</h5>
                             <p class="card-text">We deliver the seedlings at MK0 transport cost country wide  </p>
                         </div>
                         </div>
                     </div>
                     <div class="col " >
-                        <div class="card  ">
+                        <div class="card mt-4 mt-md-0  ">
                           <i class="bi fa fa-users"></i>
                         <div class="card-body"  style="margin-top: -50px;">
                             <h5 class="card-title text-success">Planting Labour</h5>
@@ -51,15 +60,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col d-none d-md-flex ">
-                        <div class="card  ">
-                          <i class="bi fa fa-tree"></i>
-                        <div class="card-body" style="margin-top: -50px;">
-                            <h5 class="card-title text-success">Consultation Services</h5>
-                            <p class="card-text ">You can consult us at a cheep fee when undertaking a tree planting project </p>
-                        </div>
-                        </div>
-                    </div>
+                    
                    
                     
 
@@ -97,14 +98,14 @@
                            overflow: hidden;" >
                        <a href='/storage/{{$activity->image  }}'target="_blank"><img src='/storage/{{$activity->image  }}' class="card-img px-1" alt="..." ></a> 
                         </div>
-                        <p class="text-primary px-3"><em>{{ $activity->caption }}</em></p>
+                        <p class="text-success px-3"><em>{{ $activity->caption }}</em></p>
                         <p class="card-text px-3"><small class="text-muted">{{ $activity->updated_at->diffForHumans( ) }}</small></p>
 
                     </div>
                     <div class="col-md-8">
                     <div class="card-body" style=" max-height: 400px;
                            overflow: hidden;" >
-                        <h5 class="card-title text-primary ">{{ $activity->title}}</h5>
+                        <h5 class="card-title text-success ">{{ $activity->title}}</h5>
                         <p class="card-text">{{$activity->description }}</p>
                       
 

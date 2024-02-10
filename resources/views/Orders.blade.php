@@ -36,7 +36,7 @@
                 <td>{{ $order->place }}</td>
                  <td>{{ $order->phone1 }}</td>
                   <td>{{ $order->phone2 }}</td>
-                   <td>{{ $order->created_at }}</td>
+                   <td>{{ $order->created_at->diffForHumans( ) }}</td>
                     <td>{{ $order->payment }}</td>
                      <td>{{ $order->status }}</td>
               

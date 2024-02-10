@@ -11,7 +11,7 @@
                 <div  class="text-center shadow-md  my-3 card-header bg-white bg-gradient">
                  <div>
                           <img src="images/icon.png" height="100px" alt="">
-                         <h5 class="h6  text-success mt-2\" style="font-weight:900">HEDMAN REGISTER</h5>
+                         <h5 class="h6  text-success mt-2\" style="font-weight:900">REGISTER WITH HEDMAN</h5>
                  </div>
                 </div>
 
