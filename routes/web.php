@@ -34,15 +34,14 @@ Route::get('/gallery', [HomeController::class, 'gallery'])->name('gallery');
 Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::post('/feedback/store', [HomeController::class, 'feebackStore'])->name('storefeedackb');
 
-   Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder') ->middleware(['auth', 'verified']);
-   Route:: get('/orders', [HomeController::class, 'getOrders'])->name('getOrders');
-   // ->middleware(['auth', 'verified']);    
+   Route::post('/order/store', [HomeController::class, 'storeOrder'])->name('storeOrder');
+   Route:: get('/orders', [HomeController::class, 'getOrders'])->name('getOrders')->middleware(['auth', 'verified']);    
 
 
-Route::fallback(function(){
-   return redirect('/');
+// Route::fallback(function(){
+//    return redirect('/');
    
-});
+// });
 
 // email verifying routes
 
@@ -66,7 +65,9 @@ Route::fallback(function(){
 //     return back()->with('message', 'Verification link sent!');
 // })->middleware(['auth', 'throttle:6,1'])->name('verification.send');
 
-//admin routes                                 
+//admin routes 
+
+
 Route::get('/admin/home', [AdminController::class,'index'])->name('admin.home');
 Route::get('/admin/posts/innovations', [AdminController::class,'innovPosts'])->name('admin.innovposts');
 Route::get('/admin/posts/activities', [AdminController::class,'activPosts'])->name('admin.activeposts');

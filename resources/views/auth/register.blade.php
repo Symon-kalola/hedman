@@ -70,10 +70,13 @@
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
+                            <div class="col-md-6 offset-md-4 d-flex">
                                 <button type="submit" class="btn btn-success">
                                     {{ __('Register') }}
                                 </button>
+                                
+                                <h6 class="pt-2 ms-2 text-success" style="text-decoration: underline;"><a class="nav-link" href="{{ route('login') }}">{{ __('Or Login') }}</a>
+                                </h6>
                             </div>
                         </div>
                     </form>

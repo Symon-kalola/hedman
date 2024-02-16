@@ -70,10 +70,14 @@
                         </div>
 
                         <div class="row mb-0">
-                            <div class="col-md-8 offset-md-4">
+                            <div class="col-md-8 offset-md-4 d-flex">
                                 <button type="submit" class="btn btn-success">
                                     {{ __('Login') }}
                                 </button>
+
+                                <h6 class="pt-2 ms-2 text-success" style="text-decoration: underline;"><a class="nav-link" href="{{ route('register') }}">{{ __('Or Register') }}</a>
+                                </h6>
+
 
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link text-success" href="{{ route('password.request') }}">
