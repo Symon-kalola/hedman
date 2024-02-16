@@ -54,7 +54,7 @@
                                 <a class="nav-link text-success" href="/gallery">Gallery</a>
                             </li>
                                <li class="nav-item dropdown">
-                                <a class="nav-link text-success  " href="/orders">My Orders <span class=" text-white circle"><small>0</small></span></a>
+                                <a class="nav-link text-success  " href="/orders">My Orders </a>
                             </li>
                         
                             <li class="nav-item dropdown">
